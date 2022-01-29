@@ -2,7 +2,7 @@
 I programmed a simple shell program in C: can accept many inputs to do a variety of shell tasks in Unix. This project used the knowledge of Unix System: child processes, signal masks/handlers, pipes.
 
 # Run
-To Run in Terminal: ./mush2 [ -v ] [ infile ]"
+To Run in Terminal: "./mush2 [ -v ] [ infile ]"
 
 # Details
 This project is writing a simple shell. mush2 has the following basic features:
