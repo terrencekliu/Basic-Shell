@@ -1,6 +1,5 @@
 #Overview
-Programmed a simple shell program in C: can accept many inputs to do a variety of shell tasks in Unix
-Knowledge of Unix System: child processes, signal masks/handlers, pipes
+I programmed a simple shell program in C: can accept many inputs to do a variety of shell tasks in Unix. This project used the knowledge of Unix System: child processes, signal masks/handlers, pipes.
 
 #Details
 This project is writing a simple shell. mush2 has the following basic features:
