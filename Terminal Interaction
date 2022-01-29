@@ -1,0 +1,44 @@
+tliu29@unix1:~/CPE357/project $ ./mush2
+8-P mush2
+mush2: No such file or directory
+8-P ls | grep o | sort | wc
+      3       3      24
+8-P ls Makefile mush2 > file1
+8-P cat file1
+Makefile
+mush2
+8-P cat < file1 > file2
+8-P cat file2
+Makefile
+mush2
+8-P cat > file2 | sort
+Ambiguous output redirection, line 1.
+8-P ls | more < file2
+Ambiguous input redirection, line 1.
+8-P ls | more < file2
+Ambiguous input redirection, line 1.
+8-P echo a b c d e f g j 
+a b c d e f g j
+8-P foo
+foo: No such file or directory
+8-P echo "hi" > foo
+8-P cat foo
+hi
+8-P foo
+foo: No such file or directory
+8-P ls -l foo
+-rw-------. 1 tliu29 domain users 3 Jan 29 08:33 foo
+8-P rm foo
+8-P cd foo
+foo: No such file or directory
+8-P ls > foo
+8-P cd foo
+foo: Not a directory
+8-P rm foo
+8-P mkdir foo
+8-P cd foo
+8-P pwd
+/home/tliu29/CPE357/project/foo
+8-P ^C
+8-P sleep 20
+^C8-P tliu29@unix1:~/CPE357/project
